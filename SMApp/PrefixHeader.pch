@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  SMApp
+//
+//  Created by 家朋 on 2017/9/14.
+//  Copyright © 2017年 家朋. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "Config.h"
+#import "UIView+Toast.h"
+#import "ShareRequest.h"
+#import "Common.h"
+#import "YYModel.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "IQKeyboardManager.h"
+#import "LKDBHelper.h"
+#import "MBProgressHUD.h"
+#import "UIButton+WHBlock.h"
+#import "UITextField+JKBlocks.h"
+#import "NSString+WHNormalRegEx.h"
+#import "UIView+JKBlockGesture.h"
+#import "UIView+JKFrame.h"
+#import "UIImageView+Show.h"
+#import "ShareRequest.h" 
+#import "SDAutoLayout.h"
+
+//Base
+#import "BaseTableVC.h"
+#import "BaseVC.h"
+#import "Macro.h"
+
+#endif
+ 
+
+
+#endif /* PrefixHeader_pch */
