@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "send_add_ico.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "send_add_ico@2x.png",
       "scale" : "2x"
     },
     {

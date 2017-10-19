@@ -31,6 +31,7 @@ PODS:
   - MJRefresh (3.1.12)
   - MMPopupView (1.7.2):
     - Masonry
+  - ReactiveObjC (3.0.0)
   - SDAutoLayout (2.1.8)
   - SDCycleScrollView (1.66):
     - SDWebImage (~> 4.0.0)
@@ -71,6 +72,7 @@ DEPENDENCIES:
   - MBProgressHUD
   - MJRefresh
   - MMPopupView
+  - ReactiveObjC
   - SDAutoLayout
   - SDCycleScrollView
   - SDWebImage
@@ -97,6 +99,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
   SDAutoLayout: 5a4b48d6b8a5172ae8d088d2879e40dd795e6251
   SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
@@ -107,6 +110,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 978a025465bc183887b636fe53c38c62b772621c
+PODFILE CHECKSUM: 0a317310ecf66526b18fd071611a4a56b51af030
 
 COCOAPODS: 1.3.0.beta.1

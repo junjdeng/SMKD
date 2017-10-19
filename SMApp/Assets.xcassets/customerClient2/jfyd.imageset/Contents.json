@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "jfyd.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "jfyd.imageset.png",
       "scale" : "2x"
     },
     {

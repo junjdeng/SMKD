@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "jieri_iocon.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "jieri_iocon@2x.png",
       "scale" : "2x"
     },
     {

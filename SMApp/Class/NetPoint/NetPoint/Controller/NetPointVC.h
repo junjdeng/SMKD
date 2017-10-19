@@ -7,7 +7,8 @@
 //
 
 #import "BaseVC.h"
+#import "BMapBaseVC.h"
 
-@interface NetPointVC : BaseVC
+@interface NetPointVC : BMapBaseVC
 
 @end

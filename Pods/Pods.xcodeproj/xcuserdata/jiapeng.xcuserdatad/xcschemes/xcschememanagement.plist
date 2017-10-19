@@ -59,6 +59,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ReactiveObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SDAutoLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -101,102 +106,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>251BAD17812F7EBF6532EACF66F941C3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>279AA6726F52A334C45E85774BD21A3D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2A3B8B488840FDFB6782EECAC4492EE4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3F5BC29A5E9EF206102F5E0428F8A894</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>42B4EDA9BB2B0ED659381D6207D93C0D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>51EBF37B2B455746FCCB6BEDF1516B2C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>58FE0486E83AA749B9E8C1300B64E2A2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5E1DA804222258DFC0302C6007C02DEC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7435BBC974BEE4088C2468E056D181C7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>78D4057CFB7B4DC8CD1A1CE3096E24C7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8EA72831276CD445C5BF4F32A7E4DF31</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>97148B1403601CACAD64EC829F6A7442</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A1B2168B8DD91555EBB1722C8D6D847A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B25A4DC6306B4E965FA7BC95C18D62D6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CCA9C33B127D6C859A3F8AFBEFCBABF0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D52144DE9D7255DE912490FF5A806573</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E14A62900910444707A5504D25EC98DC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

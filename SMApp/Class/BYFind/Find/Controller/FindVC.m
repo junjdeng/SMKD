@@ -23,7 +23,7 @@
 }
 
 - (IBAction)clickLeftBtn:(id)sender {
-    
+    kPush(@"IntegralVC");
 }
 
 - (IBAction)clickRightBtn:(id)sender {

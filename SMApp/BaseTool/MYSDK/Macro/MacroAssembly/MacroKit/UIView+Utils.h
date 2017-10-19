@@ -187,5 +187,6 @@ CGRect  CGRectMoveToCenter(CGRect rect, CGPoint center);
 + (instancetype )getViewLine;
 + (instancetype )getViewLine:(UIColor*)backColor
                       height:(CGFloat )height;
++(NSString *)cellID;
 
 @end

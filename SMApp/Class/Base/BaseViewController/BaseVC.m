@@ -77,7 +77,7 @@
     self.leftNaviBtn.titleLabel.font=[UIFont systemFontOfSize:16];
     [self.leftNaviBtn.titleLabel setTextAlignment:NSTextAlignmentCenter];
     self.leftNaviBtn.backgroundColor=[UIColor clearColor];
-    [self.leftNaviBtn addTarget:self action:@selector(clickRightNaviBtn) forControlEvents:UIControlEventTouchUpInside];
+    [self.leftNaviBtn addTarget:self action:@selector(didClickLeftNaviBtn) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem * rightButton = [[UIBarButtonItem alloc]initWithCustomView:self.leftNaviBtn];
     self.navigationItem.leftBarButtonItem=rightButton;
 }
@@ -103,13 +103,12 @@
     
 }
 
-- (void)clickRightNaviBtn{};
 - (void)popVC {
     
     [self.navigationController popViewControllerAnimated:YES];
 };
 - (void)didClickRightNaviBtn{};
-
+- (void)didClickLeftNaviBtn{};
 
 - (void)pushToVC:(NSString *)vcStr {
     

@@ -9,5 +9,8 @@
 #import "BaseVC.h"
 
 @interface FindVC : BaseVC
+{
+    
+}
 
 @end

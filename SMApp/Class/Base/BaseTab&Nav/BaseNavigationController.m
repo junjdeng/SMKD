@@ -7,7 +7,7 @@
 //
 
 #import "BaseNavigationController.h"
-
+#import "UIImage+JKColor.h"
 @interface BaseNavigationController ()
 
 @end
@@ -28,9 +28,11 @@
     //设置导航栏背景颜色
     navigationBar.barTintColor = UIColorFromRGB(660000);
     //设置导航栏的阴影
-    navigationBar.shadowImage = [UIImage new];
+   // navigationBar.shadowImage = [UIImage new];
     //设置导航栏背景图片(注意，图片有可能需要拉伸)
-  //  [navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_bg"] forBarMetrics:UIBarMetricsDefault];
+    UIImage *backImage = [UIImage jk_imageWithColor:[UIColor whiteColor] size:CGSizeMake(kScreenWidth, 64)];
+    
+    [navigationBar setBackgroundImage:backImage forBarMetrics:UIBarMetricsDefault];
     
     [navigationBar setTitleTextAttributes:dic];
     

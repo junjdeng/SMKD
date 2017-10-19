@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "ico_user_del.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "ico_user_del@2x.png",
       "scale" : "2x"
     },
     {

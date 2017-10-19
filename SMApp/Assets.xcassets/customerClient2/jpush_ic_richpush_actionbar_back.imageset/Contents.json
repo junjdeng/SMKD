@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "jpush_ic_richpush_actionbar_back.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "jpush_ic_richpush_actionbar_back@2x.png",
       "scale" : "2x"
     },
     {

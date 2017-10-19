@@ -65,15 +65,16 @@
 /// 全局背景颜色
 #define GlobalBackColor RGB(246, 246, 246)
 //-------颜色-----
-
+#define lightColor RGB(222, 222, 222)
 
 
 //-------刷新界面-----
 #define KYPageSize @"10"
 
+#define kPush(a)  [self.navigationController pushViewController:[[NSClassFromString(a) alloc] init] animated:YES];
 
-
-
+#define VCToas(a)   [self.view makeToast:a];
+#define VToas(a)   [self makeToast:a];
 #ifdef DEBUG
 #define requestServerURL @" "
 #else

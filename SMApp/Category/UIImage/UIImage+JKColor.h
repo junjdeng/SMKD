@@ -17,6 +17,8 @@
  *  @return 纯色图片
  */
 + (UIImage *)jk_imageWithColor:(UIColor *)color;
+
++ (UIImage *)jk_imageWithColor:(UIColor *)color size:(CGSize)size;
 /**
  *  @brief  取图片某一点的颜色
  *

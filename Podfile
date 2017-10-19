@@ -91,5 +91,6 @@ pod 'UMengUShare/Social/QQ'
 pod 'UMengUShare/Social/WeChat'
 #pod 'UMengUShare/Social/Sina'
 
-
+#JP
+pod 'ReactiveObjC' 
 end

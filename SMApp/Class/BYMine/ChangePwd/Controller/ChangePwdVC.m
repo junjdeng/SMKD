@@ -9,14 +9,35 @@
 #import "ChangePwdVC.h"
 
 @interface ChangePwdVC ()
+@property (strong, nonatomic) IBOutlet UIView *backView;
+@property (weak, nonatomic) IBOutlet UIButton *doneBtn;
 
 @end
 
 @implementation ChangePwdVC
 
+-(void)awakeFromNib {
+    [super awakeFromNib];
+   
+
+    
+}
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+    _backView
+    .KYCornerRediu(8)
+    .KYBorderWidth(1)
+    .KYBorderColor([UIColor lightGrayColor]);
+    
+    _doneBtn.KYCornerRediu(4);
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+    
+}
+- (IBAction)clickDone:(id)sender {
 }
 
 @end

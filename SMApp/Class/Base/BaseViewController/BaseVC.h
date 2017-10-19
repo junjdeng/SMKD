@@ -18,9 +18,10 @@
 -(void)setLeftNaviBtnTitle:(NSString*)str;
 
 
-- (void)clickRightNaviBtn;
+
 - (void)popVC;
-- (void)didClickRightNaviBtn;
+- (void)didClickRightNaviBt;
+- (void)didClickLeftNaviBtn;
 
 
 - (void)pushToVC:(NSString *)vcStr;

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WaitCheckCarIDVC">
+            <connections>
+                <outlet property="clickBtn" destination="Bpg-fF-NvZ" id="S7e-Q8-FsW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sfz" translatesAutoresizingMaskIntoConstraints="NO" id="omu-S8-m03">
+                    <rect key="frame" x="137.5" y="40" width="100" height="62"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="客服将在24小时内进行审核" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09g-Nw-S3h">
+                    <rect key="frame" x="94.5" y="173" width="186.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.32156862749999998" green="0.31372549020000001" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="审核中..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZR-9A-bgj">
+                    <rect key="frame" x="154.5" y="122" width="66" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpg-fF-NvZ">
+                    <rect key="frame" x="20" y="231" width="335" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="R1j-pH-sKc"/>
+                    </constraints>
+                    <state key="normal" title="取消实名认证" backgroundImage="greyback.png"/>
+                    <state key="disabled" backgroundImage="greyback.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="09g-Nw-S3h" firstAttribute="top" secondItem="QZR-9A-bgj" secondAttribute="bottom" constant="30" id="3KF-pi-JdT"/>
+                <constraint firstItem="QZR-9A-bgj" firstAttribute="top" secondItem="omu-S8-m03" secondAttribute="bottom" constant="20" id="5BI-ZI-1kG"/>
+                <constraint firstItem="09g-Nw-S3h" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8PJ-NU-Nb2"/>
+                <constraint firstItem="omu-S8-m03" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JPM-ci-lMI"/>
+                <constraint firstItem="Bpg-fF-NvZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="OBV-t1-e8i"/>
+                <constraint firstItem="QZR-9A-bgj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZLZ-OC-Z0r"/>
+                <constraint firstItem="omu-S8-m03" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="fL3-fM-BDh"/>
+                <constraint firstAttribute="trailing" secondItem="Bpg-fF-NvZ" secondAttribute="trailing" constant="20" id="lno-vq-8Dg"/>
+                <constraint firstItem="Bpg-fF-NvZ" firstAttribute="top" secondItem="09g-Nw-S3h" secondAttribute="bottom" constant="40" id="tY9-1r-5hd"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="greyback.png" width="83" height="29"/>
+        <image name="sfz" width="100" height="62"/>
+    </resources>
+</document>

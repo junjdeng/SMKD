@@ -43,7 +43,7 @@
     [self.dataSource addObject:array2];
     self.title = @"会员中心";
     
-    self.classArray = @[@[@"UserInfoVC",@"ChangePwdVC",@"SendAddress",@"ConsigneeVC"],@[@"",@"FeedBack"]];
+    self.classArray = @[@[@"UserInfoVC",@"ChangePwdVC",@"SendAddress",@"SendAddress"],@[@"",@"FeedBack"]];
     self.titles = @[@[@"个人信息", @"修改密码", @"寄件地址博", @"收件地址博"] ,@[@"检查更新" ,@"意见反馈"]];
 }
 
@@ -64,7 +64,10 @@
     MineHeaderView *header = [MineHeaderView  hadLoginMineHeader];
     [view addSubview:header];
     header.sd_layout.spaceToSuperView(UIEdgeInsetsMake(0, 0, 0, 0));
-    
+   //积分 钱包 推荐
+    [header.MyIntegralBtn addTarget:self action:@selector(clickMyIntegralBtn) forControlEvents:UIControlEventTouchUpInside];
+    [header.MyMoneyBtn addTarget:self action:@selector(clickMyMoneyBtn) forControlEvents:UIControlEventTouchUpInside];
+    [header.MyCommentBtn addTarget:self action:@selector(clickMyCommentBtn) forControlEvents:UIControlEventTouchUpInside];
   
 }
 
@@ -81,6 +84,20 @@
 
 #pragma mark - Click
 
+- (void)clickMyIntegralBtn {
+    
+    kPush(@"MineIntegralVC")
+    
+}
+- (void)clickMyMoneyBtn {
+    kPush(@"MYWalletVC")
+    
+}
+- (void)clickMyCommentBtn {
+    
+    
+    
+}
 
 
 

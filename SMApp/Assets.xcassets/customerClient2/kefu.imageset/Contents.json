@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "kefu.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "kefu@2x.png",
       "scale" : "2x"
     },
     {

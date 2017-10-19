@@ -5,24 +5,51 @@
 //  Created by 家朋 on 2017/9/13.
 //  Copyright © 2017年 家朋. All rights reserved.
 //
-
+//百度：M4yzgyGuBFozoNb4FGlzE3kiKO0YBxNX
 #import "AppDelegate.h"
 #import "BaseTabBarController.h"
+
+#import "IQKeyboardManager.h"
+
+
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
+#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+#import <BaiduMapAPI_Map/BMKMapView.h>//只引入所需的单个头文件
+
+#define BaiDuAppkey @"M4yzgyGuBFozoNb4FGlzE3kiKO0YBxNX"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+{
+    BMKMapManager* _mapManager;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+
+    
+    // 要使用百度地图，请先启动BaiduMapManager
+    _mapManager = [[BMKMapManager alloc]init];
+    // 如果要关注网络及授权验证事件，请设定     generalDelegate参数
+    BOOL ret = [_mapManager start:BaiDuAppkey generalDelegate:nil];
+    if (!ret) {
+        LOG(@"manager start failed!");
+    }
+    
+    
+    
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;//这个是点击空白区域键盘收缩的开关
+    manager.enableAutoToolbar = YES;//这个是它自带键盘工具条开关
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[BaseTabBarController alloc]init];
     [self.window makeKeyAndVisible];
-    
     return YES;
 }
 

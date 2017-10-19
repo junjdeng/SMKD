@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "my_reciver_ico.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "my_reciver_ico@2x.png",
       "scale" : "2x"
     },
     {

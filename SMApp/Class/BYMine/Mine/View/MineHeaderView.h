@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface MineHeaderView : UIView
+@property (weak, nonatomic) IBOutlet UIButton *MyIntegralBtn;
+@property (weak, nonatomic) IBOutlet UIButton *MyMoneyBtn;
+@property (weak, nonatomic) IBOutlet UIButton *MyCommentBtn;
+
+
+@property (weak, nonatomic) IBOutlet UIButton *goLogin;
+@property (weak, nonatomic) IBOutlet UIButton *goRegin;
 
 
 + (instancetype)hadLoginMineHeader;

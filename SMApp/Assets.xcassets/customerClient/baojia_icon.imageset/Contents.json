@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "baojia_icon.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "baojia_icon@2x.png",
       "scale" : "2x"
     },
     {

@@ -21,13 +21,14 @@
 #define tabbarHeight 49
 
 #define CJTItileArr @[@"首页",@"网点",@"推荐",@"发现",@"我的"];
-#define CJTabBarBottom_imageArr  @[@"shouye.png",@"yueta.png",@"",@"wode.png",@"wode.png"];
+#define CJTabBarBottom_imageArr  @[@"shouye.png",@"fj_mai",@"",@"tj",@"wode.png"];
 
-#define CJTabBarBottom_selectImageArr  @[@"zhuye.png",@"yueta3.png",@"",@"wode1.png",@"wode.png"];
+#define CJTabBarBottom_selectImageArr  @[@"zhuye.png",@"fj_x.png",@"",@"tj_x.png",@"wode.png"];
 //按钮颜色
 //#define navigateColor [UIColor colorWithRed:236/255.0 green:89/255.0 blue:14/255.0 alpha:1.0]
 //#define navigateColor [UIColor colorWithRed:0 green:0 blue:0 alpha:1.0]
 //#define navigateColor [UIColor colorWithRed:236/255.0 green:89/255.0 blue:14/255.0 alpha:1.0]
+
 
 
 #define  NUM 5
@@ -51,7 +52,7 @@
     [super viewDidLoad];
     
     
-   viewControllers = @[@"HomeVC",@"netPointVC",@"RecommendVC",@"FindVC",@"MineVC"];
+   viewControllers = @[@"HomeVC",@"NetPointVC",@"Recommend",@"FindVC",@"MineVC"];
     
     self.tabBar.backgroundColor = [UIColor clearColor];
     

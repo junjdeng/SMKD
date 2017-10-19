@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "henzan.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "henzan@2x.png",
       "scale" : "2x"
     },
     {

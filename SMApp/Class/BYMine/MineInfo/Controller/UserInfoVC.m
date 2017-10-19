@@ -36,7 +36,19 @@
     
     self.rightNaviBtn.selected = !self.rightNaviBtn.selected;
     [self.rightNaviBtn setTitle:self.rightNaviBtn.selected ? @"保存":@"编辑" forState:UIControlStateNormal];
+    
+    
 
+}
+- (IBAction)clickLookCustomer:(id)sender {
+    
+    kPush(@"CustomerVC");
+}
+
+//实名认证0
+- (IBAction)clickShiMing:(id)sender {
+    //PostCarID
+     kPush(@"PostCarID");
 }
 
 @end

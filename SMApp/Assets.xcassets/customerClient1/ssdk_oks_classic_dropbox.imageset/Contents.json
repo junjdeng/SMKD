@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "ssdk_oks_classic_dropbox.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "ssdk_oks_classic_dropbox@2x.png",
       "scale" : "2x"
     },
     {

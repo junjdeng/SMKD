@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "jin_pai_ico.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "jin_pai_ico@2x.png",
       "scale" : "2x"
     },
     {

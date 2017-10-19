@@ -598,6 +598,8 @@ static char *clickViewBlockKey = "clickViewBlockKey";
     return line;
 }
 
-
++(NSString *)cellID {
+    return NSStringFromClass([self class]);
+}
 
 @end
